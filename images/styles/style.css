@@ -11,21 +11,54 @@ body{
     font-family: "Inter", sans-serif;
 }
 
-.banner-section-container{
+.banner-section-container {
 max-width: 1920px;
 height: 650px;
-border: 2px solid red;
 background-color: rgba(229, 84, 115, 0.1);
-align-items: center;
+}
+
+
+.banner-content {
+    display: flex;
+    /* border: 2px solid yellow; */
+    width: 90%;
+    margin: 0 auto;
 
 }
+
+
 .banner-text-container{
     width: 50%;
-    border: 2px solid green;
-    height: 650px;
+   /* border: 2px solid green; */
+   height: 650px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
+
+.banner-text-container button {
+    margin-right:730px ;
+    width:140px;
+    height: 45px;
+    background-color: rgb(229, 84, 115);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
 .banner-image-container {
     width: 50%;
-    border: 2px solid blue;
+   /* border: 2px solid blue; */
+   height: 650px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.banner-image-container img {
+    width: 50%;
     height: 650px;
 }
